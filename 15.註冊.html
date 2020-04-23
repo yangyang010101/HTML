@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <form method="get" action="registration.php">
+        帳號：<input type="text" name="id"><br>
+        性別：<input type="radio" name="sex" value="M">女
+             <input type="radio" name="sex" value="F" checked>男生 <br>
+        嗜好：<input type="checkbox" name="interest" value="tv">看書 
+           <input type="checkbox" name="interest" value="movie" checked>卡通
+           <input type="checkbox" name="interest" value="bike">走路 <br>
+        出遊地點：<select name="county">
+            <option value="taoyuan">新竹</option>
+            <option value="hsinchu" selected>南投</option>
+            <option value="miaoli">台北</option>       
+        </select> <br>
+        自傳：<br>
+        <textarea name="autobiography" rows="10" cols="50"></textarea><br>
+        <input type="submit" value="註冊"> 
+        <input type="reset" value="清除">
+        
+        </form>
+    </body>
+</html>
+
+<!--
+type 屬性規定input 元素的類型。
+<input type="text" /> 定義用戶可輸入文本的單行輸入字段。
+
+-->
+

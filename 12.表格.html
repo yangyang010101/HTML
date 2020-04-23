@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <!--2x3 table-->
+        <table border="1">
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table><br>
+        <table border="1">
+            <tr><td>1</td><td colspan="2">2,3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table><br>
+        <table border="1">
+            <tr><td rowspan="2">1,4</td><td>2</td><td>3</td></tr>
+            <tr>                        <td>5</td><td>6</td></tr>
+        </table><br>
+        <table border="1">
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td colspan="2" rowspan="2">5,6,8,9</td></tr>
+            <tr><td>7</td>                                        </tr>
+       </table><br>
+    </body>
+</html>
+
+<!--
+舉個例子來說，如果今天我們要做一個3欄2列的表格，在WORD中，
+只要設定表格為3欄、2列就完成了，不過，在網頁中做一個3欄2列的表格，可是要分成好幾個步驟的，
+第一個步驟，利用<TABLE></TABLE>標籤告訴電腦我要做一個表格；第二個步驟，利用一組<TR></TR>標籤先做一個橫列，然後在橫列中利用三組<TD></TD>標籤再分出三欄；
+第三個步驟，重複第二個步驟，再做一橫列然後再分三欄，如此才能得到一個3欄2列的表格。
+-->
+
+
+
